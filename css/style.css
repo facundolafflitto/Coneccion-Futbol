@@ -1,0 +1,161 @@
+
+/*--------HEADER-------*/
+header h1 {
+    color: black;
+    background-color: #80b918;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    background-color: #80b918;
+}
+header p{
+    color: black;
+    font-style: normal;
+    font-size: large;
+    font-weight: 1000;
+}
+header h2 {
+    color: black;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000px; 
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/*--MAIN--*/
+main{
+    color: black;
+    font-style: normal;
+    font-size: large;
+}
+
+.resultados a img{
+width: 1000px;
+} 
+.mono{
+    margin-right: 100px;
+}
+.amistosos{
+    display: flex;
+    justify-content: flex-end;
+}
+.sanlorenzo img{
+    width: 600px;
+}
+.sorteo{
+    margin-left: 20px;
+}
+.sorteo img{
+    width: 400px;
+    margin-left: 20px;
+}
+.sanlorenzo{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.championsLeague{
+    margin-left: 20px;
+}
+.europa{
+    display: flex;
+    justify-content: center;
+}
+.europa div {
+    margin-left: 100px;
+}
+.europa img{
+    width: 500px;
+}
+.ranking{
+    margin-right: 400px;
+    margin-left: 200px;
+}
+.tecnico-boca{
+    width: 850px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.brown img{
+    width: 900px;
+}
+.rafaela img{
+    width: 700px;
+}
+.fechaDomingo{
+    margin-left: 10px;
+    margin-bottom: 26px;
+}
+
+.marruecos {
+    width: 850px;
+    height: 580px;
+}
+.argentina{
+    width: 450px;
+    margin-top: 55px;
+}
+.FotoArgentina{
+    margin-top: 20px;
+    width: 400px;
+}
+.messi-foto{
+    width: 500px;
+}
+
+.grid-conteiner{
+    margin-top: 20px;
+    margin: 3px;
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(3fr 1fr);    
+    padding: 5px; 
+}
+.primer-item{
+    grid-column: 1 / 2;
+}
+.segundo-item{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.grid-conteiner img{
+    width: 600px;
+    height: 200px;
+}
+/*--FOOTER--*/
+footer{
+    position: relative;
+    margin: 0;
+    text-align: end;
+    background-color: #80b918;
+}
+/*-----PSEUDOCLASES---*/
+header nav ul li :hover{
+    color: whitesmoke;
+}
+input:hover{
+    border-radius: 50px;
+    color: wheat;
+}
+/*----MEDIA-----*/
+
+

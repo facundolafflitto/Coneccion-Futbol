@@ -149,6 +149,10 @@ main {
     width: 500px;
 }
 
+.mercadolibre  {
+    width: 50px;
+}
+
 .grid-conteiner {
     margin-top: 20px;
     margin: 3px;
@@ -191,9 +195,13 @@ input:hover {
 }
 
 /*----MEDIA-----*/
-
-@media screen and (max-width: 980px) {
-    main { font-style: small;
+@media screen and (max-width: 1645px) {
+    main {
+        width: 100%;
+        max-width: 1920px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     header h1 {
@@ -220,6 +228,17 @@ input:hover {
         flex-direction: column;
     }
 
+    .amistosos{
+        display: flex;
+        flex-direction: column;  
+        margin-bottom: 50px;  
+    }
+    .marruecos img{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 0%;
+    }
+
     .resultados {
         display: flex;
         flex-direction: column;
@@ -229,6 +248,105 @@ input:hover {
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+    
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr)
+        margin: 30px
+    }
+    .primer-item {
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+    .segundo-item{
+        grid-column: 1 ;
+        grid-row: 1 ;
+    }
+    .tercer-item{
+        grid-column: 2 / 3;
+    }
+    .sexto-item{
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    main {
+        width: 100%;
+        max-width: 1920px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin: 0px;
+    }
+
+    .sorteo {
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+    }
+
+    .sanlorenzo p {
+        margin: 5px;
+    }
+
+    footer h3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .internacional {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .amistosos{
+        display: flex;
+        flex-direction: column;  
+        margin-bottom: 50px;  
+    }
+    .marruecos img{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 0%;
+    }
+
+    .resultados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .europa {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr)
+        margin: 30px
+    }
+    .primer-item {
+        grid-column: 2 ;
+        grid-row: 1;
+    }
+    .segundo-item{
+        grid-column: 1 ;
+        grid-row: 1 ;
+    }
+    .tercer-item{
+        grid-column: 2 / 3;
+    }
+    .sexto-item{
+        grid-column: 1;
+        grid-row: 2;
     }
 }
 
@@ -290,3 +408,6 @@ input:hover {
     
 
 }
+
+
+

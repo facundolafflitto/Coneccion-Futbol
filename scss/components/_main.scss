@@ -1,0 +1,152 @@
+main {
+    color: black;
+    font-style: normal;
+    font-size: large;
+
+    .hero {
+      margin: 10px;
+    
+      img {
+        margin: 0;
+        width: 100%;
+        max-width: 1800px;
+        height: 500px;
+      }
+    
+    }
+  
+    .resultados {
+      a img {
+        width: 1000px;
+      }
+    }
+  
+    .mono {
+      margin-right: 100px;
+    }
+  
+    .amistosos {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .sanlorenzo {
+      img {
+        width: 600px;
+      }
+      margin-left: 20px;
+      margin-top: 40px;
+    }
+  
+    .sorteo {
+      margin-left: 20px;
+      img {
+        width: 400px;
+        margin-left: 20px;
+      }
+    }
+  
+    .championsLeague {
+      margin-left: 20px;
+    }
+  
+    .europa {
+      display: flex;
+      justify-content: center;
+      div {
+        margin-left: 10px;
+      }
+      img {
+        width: 560px;
+      }
+    }
+  
+    .belgica {
+      img {
+        width: 700px;
+      }
+    }
+  
+    .ranking {
+      margin-right: 650px;
+      margin-left: 50px;
+      width: 300px;
+    }
+  
+    .tecnico-boca {
+      width: 850px;
+      margin-left: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .card {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .brown {
+      img {
+        width: 900px;
+      }
+    }
+  
+    .rafaela {
+      img {
+        width: 700px;
+      }
+    }
+  
+    .fechaDomingo {
+      margin-left: 10px;
+      margin-bottom: 26px;
+    }
+  
+    .marruecos {
+      width: 850px;
+      height: 580px;
+    }
+  
+    .argentina {
+      width: 450px;
+      margin-top: 55px;
+    }
+  
+    .FotoArgentina {
+      margin-top: 20px;
+      width: 400px;
+    }
+  
+    .messi-foto {
+      width: 500px;
+    }
+  
+    .mercadolibre {
+      width: 50px;
+    }
+  
+    .grid-conteiner {
+      margin-top: 20px;
+      margin: 3px;
+      display: grid;
+      grid-auto-rows: 200px;
+      grid-template-columns: repeat(3fr 1fr);
+      padding: 5px;
+  
+     .primer-item {
+        grid-column: 1 / 2;
+      }
+  
+      .segundo-item {
+        grid-column: 3;
+        grid-row: 2;
+      }
+  
+      img {
+        width: 600px;
+        height: 200px;
+      }
+    }
+  }
+    
+    
+

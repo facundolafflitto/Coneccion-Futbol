@@ -1,7 +1,7 @@
 main {
-    color: black;
+    color: nth($color, 4);
     font-style: normal;
-    font-size: large;
+    font-size: nth($font-size, 2);
 
     .hero {
       margin: 10px;
@@ -26,8 +26,7 @@ main {
     }
   
     .amistosos {
-      display: flex;
-      justify-content: flex-end;
+      @include flex (flex, flex end, center)
     }
   
     .sanlorenzo {
@@ -51,8 +50,7 @@ main {
     }
   
     .europa {
-      display: flex;
-      justify-content: center;
+      @include flex (flex, center, center);
       div {
         margin-left: 10px;
       }
@@ -80,8 +78,7 @@ main {
     }
   
     .card {
-      display: flex;
-      justify-content: center;
+    @extend %flex;
     }
   
     .brown {

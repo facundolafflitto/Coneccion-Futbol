@@ -1,3 +1,7 @@
+main .card {
+  display: flex;
+  justify-content: center; }
+
 * {
   margin: 5;
   padding: 0; }
@@ -38,7 +42,7 @@ header nav header nav ul li:hover {
 main {
   color: black;
   font-style: normal;
-  font-size: large; }
+  font-size: 18px; }
   main .hero {
     margin: 10px; }
     main .hero img {
@@ -52,7 +56,8 @@ main {
     margin-right: 100px; }
   main .amistosos {
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex end;
+    align: center; }
   main .sanlorenzo {
     margin-left: 20px;
     margin-top: 40px; }
@@ -67,7 +72,8 @@ main {
     margin-left: 20px; }
   main .europa {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align: center; }
     main .europa div {
       margin-left: 10px; }
     main .europa img {
@@ -82,9 +88,6 @@ main {
     width: 850px;
     margin-left: 20px;
     margin-bottom: 40px; }
-  main .card {
-    display: flex;
-    justify-content: center; }
   main .brown img {
     width: 900px; }
   main .rafaela img {

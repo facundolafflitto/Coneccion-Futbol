@@ -11,6 +11,10 @@
     <!---BOOTSRAPCSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            
     <!--css-->
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Coneccion Futbol</title>
@@ -33,11 +37,45 @@
     <main>
         <section>
             <div class="hero">
-                <h2>Man city aplasta al real madrid en semis de champions</h2>
-                <img src="./img/mancityreal.jpg" alt="">
-                <p>El equipo de Pep Guardiola se impuso con autoridad y jugará la final del torneo más codiciado de Europa en Estambul. Bernardo Silva, en dos ocasiones, Eder Militao, en contra, y Álvarez fueron los autores de los tantos de los Citizens.
-                    El trámite del partido fue a pedir del Manchester City, de principio a fin. El equipo de Pep Guardiola fue el que impuso las condiciones, el que se hizo dueño de todas las situaciones de peligro y también de los goles. Se fue al descanso ganando 2 a 0 gracias al doblete de Bernardo , pero el resultado parcial pudo ser más abultado. Si el primer tiempo no terminó en goleada fue pura y exclusivamente por las atajadas de Courtois y por la falta de puntería de Erling Haaland.En el complemento nada cambió desde el juego, más allá de una tibia reacción del Real Madrid en algunos pasajes del partido. El City siguió manejando los hilos del partido y también contó con los espacios para rematar el partido cuando quisiera. Y lo hizo en los minutos finales, primero con el grito de Manuel Akanji a los 30 minutos del segundo tiempo. A falta de dos minutos para el cierre, Guardiola mandó a la cancha a Julián Álvarez por Haaland. Y el ex delantero de River respondió con creces: en la primera y única maniobra de gol, quedó mano a mano con Courtois y definió de manera exquisita. Puso la pelota contra un palo y selló el 4 a 0 final. Triunfazo y la final de la Champions, donde la Araña va por un nuevo título internacional.
-                </p>
+                <h2>Ultimas Noticias del Futbol</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./img/mancityreal.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Man City vencio al Real Madrid 4-0</h5>
+                                <p>El equipo de Pep Guardiola eliminó a los de Carlo Ancelotti con un contundente 4-0. Julián Álvarez entró cuando faltaba 1 minuto para terminar el partido y metió el cuarto gol en la primera pelota que tocó.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/sevilla.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sevilla se consagró Camepeon luego de Ganar en Penelas</h5>
+                                <p>Sevilla se coronó campeón de la Europa League por séptima vez, gracias a una definición por penales. En Budapest, y con tres argentinos en el campo más uno en el banco de suplentes, el conjunto español superó a Roma por 4-1 en la definición desde los 11 metros, tras un 1-1 en el tiempo regular. Paulo Dybala había logrado la ventaja parcial para el club italiano.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./img/spcristal.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sporting Cristal vs River Plate: el vibrante empate 1-1 por Copa Libertadores</h5>
+                                <p>Los celestes sometieron a los millonarios con 10 jugadores y sacó un puntazo en el estadio Nacional. La lucha por clasificar a octavos de final continuará ante The Strongest en La Paz..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
             </div>
             <div class="sorteo">
                 <h2>Se conocio el sorteo de los grupos de la sudamericana y la libertadores </h2>
@@ -129,6 +167,7 @@
                             </div>
                         </div>
                     </div>
+                <div class="Acordion">  
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"

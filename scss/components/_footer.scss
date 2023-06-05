@@ -1,6 +1,9 @@
 footer {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     text-align: end;
     background-color: #80b918;
+    width: 100%;
 }

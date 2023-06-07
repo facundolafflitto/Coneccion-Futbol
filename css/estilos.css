@@ -131,11 +131,11 @@ main {
     width: 50px; }
   main .grid-conteiner {
     margin-top: 20px;
-    margin: 3px;
+    margin: 5px;
     display: grid;
     grid-auto-rows: 200px;
     grid-template-columns: repeat(3fr 1fr);
-    padding: 5px; }
+    padding: 05px; }
     main .grid-conteiner .primer-item {
       grid-column: 1 / 2; }
     main .grid-conteiner .segundo-item {
@@ -163,9 +163,12 @@ footer {
     justify-content: center; }
     main p {
       margin: 20px;
-      font-size: medium; }
+      font-size: 20px; }
+    main h2 {
+      font-size: 25px; }
   header h1 {
-    margin: 0px; }
+    margin: 0px;
+    width: 1600px; }
   .hero img {
     width: 1200px; }
   .hero button {
@@ -182,7 +185,9 @@ footer {
   .sanlorenzo p {
     margin: 5px; }
   footer {
-    width: 100%; }
+    width: 1600px; }
+    footer img {
+      width: 30px; }
   footer h3 {
     display: flex;
     flex-wrap: wrap; }
@@ -206,18 +211,104 @@ footer {
     flex-direction: column; }
   main .grid-conteiner {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    column-gap: 0%;
+    width: 800px; }
+    main .grid-conteiner img {
+      width: 500px; }
   main .grid-conteiner .primer-item {
     grid-column: 2;
-    grid-row: 1; }
+    grid-row: 2; }
   main .grid-conteiner .segundo-item {
+    grid-column: 3;
+    grid-row: 2; }
+  .tercer-item {
+    grid-column: 2 / 1; }
+  .sexto-item {
+    grid-column: 1;
+    grid-row: 2; }
+  .pie {
+    width: 1400px; } }
+
+@media screen and (max-width: 1245px) {
+  main {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main p {
+      margin: 20px;
+      font-size: 25px; }
+    main h2 {
+      font-size: 30px; }
+    main img {
+      width: 1000px; }
+  header h1 {
+    margin: 0px;
+    width: 1250px; }
+  .hero img {
+    width: 1200px; }
+  .hero button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border: none; }
+  .sorteo {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px; }
+  .sanlorenzo p {
+    margin: 5px; }
+  footer {
+    width: 1250px; }
+    footer img {
+      width: 30px; }
+  footer h3 {
+    display: flex;
+    flex-wrap: wrap; }
+  .internacional {
+    display: flex;
+    flex-direction: column; }
+  .amistosos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; }
+  .marruecos img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 0%; }
+  .resultados {
+    display: flex;
+    flex-direction: column; }
+  .europa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+  main .grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    column-gap: 80px;
+    width: 1000px; }
+    main .grid-conteiner img {
+      width: 500px; }
+  main .grid-conteiner .primer-item {
     grid-column: 1;
     grid-row: 1; }
+  main .grid-conteiner .segundo-item {
+    grid-column: 2;
+    grid-row: 2; }
   .tercer-item {
     grid-column: 2 / 3; }
   .sexto-item {
     grid-column: 1;
-    grid-row: 2; } }
+    grid-row: 2; }
+  .pie {
+    width: 1100px; } }
 
 @media screen and (max-width: 980px) {
   * {
@@ -225,12 +316,14 @@ footer {
     padding: 0;
     color: black;
     font-style: normal;
-    font-size: 18px;
     font-family: 'Times New Roman', Times, serif; }
   body {
     margin: 5px; }
     body p {
-      font-size: larger; }
+      font-size: 23px;
+      margin: 10px; }
+    body h2 {
+      font-size: 30px; }
   main {
     width: 100%;
     max-width: 1920px;
@@ -287,20 +380,28 @@ footer {
       flex-direction: column; }
     main main .grid-conteiner {
       display: grid;
-      grid-template-columns: repeat(2, 1fr); }
-      main main .grid-conteiner main .grid-conteiner .primer-item {
-        grid-column: 2;
-        grid-row: 1; }
-      main main .grid-conteiner main .grid-conteiner .segundo-item {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px;
+      grid-column-gap: 5px;
+      width: 1000px; }
+      main main .grid-conteiner .primer-item {
         grid-column: 1;
         grid-row: 1; }
-      main main .grid-conteiner.tercer-item {
-        grid-column: 2 / 3; }
-      main main .grid-conteiner.sexto-item {
+      main main .grid-conteiner .segundo-item {
+        grid-column: 1;
+        grid-row: 1; }
+      main main .grid-conteiner .tercer-item {
+        grid-column: 1;
+        grid-row: 6; }
+      main main .grid-conteiner .sexto-item {
         grid-column: 1;
         grid-row: 2; }
+  .pie {
+    width: 1300px; }
+    .pie h3 {
+      font-size: 25px; }
   footer {
-    width: 1000px; } }
+    width: 1200px; } }
 
 @media screen and (max-width: 796px) {
   * {
@@ -321,7 +422,7 @@ footer {
     body p {
       font-size: 25px;
       margin-bottom: 1rem;
-      margin: 0;
+      margin: 5;
       margin-bottom: 25px;
       display: inline-block;
       width: 800px; }
@@ -334,7 +435,7 @@ footer {
       min-width: 700px;
       margin: 5px; }
     main p {
-      font-size: 30px;
+      font-size: 25px;
       color: black; }
   header h1 {
     width: 1000px; }
@@ -354,12 +455,20 @@ footer {
     transform: translate(-50%, -50%);
     background: transparent;
     border: none; }
-  main.sanlorenzo {
+  .ranking {
+    margin-top: 65px; }
+  .accordion-item button {
+    font-size: 30px; }
+  .accordion-body {
+    font-size: 30px; }
+    .accordion-body strong {
+      font-size: 30px; }
+  .sanlorenzo {
     width: 800px;
-    margin: 0; }
-    main.sanlorenzo img {
+    margin: 0px; }
+    .sanlorenzo img {
       width: 1000px; }
-    main.sanlorenzo p {
+    .sanlorenzo p {
       width: 500px; }
   .tecnico-boca {
     margin: auto;
@@ -375,9 +484,36 @@ footer {
     margin-bottom: 0%; }
   .imagen-principal {
     width: 600px; }
-  .grid-container {
+  main .grid-conteiner {
+    margin-top: 20px;
+    margin: 50px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(1, 1fr);
+    padding: 5px;
+    width: 700px; }
+    main .grid-conteiner img {
+      width: 500px; }
+    main .grid-conteiner .primer-item {
+      grid-column: 1;
+      grid-row: 1; }
+    main .grid-conteiner .segundo-item {
+      grid-column: 1;
+      grid-row: 2; }
+    main .grid-conteiner .tercer-item {
+      grid-column: 1;
+      grid-row: 3; }
+    main .grid-conteiner .cuarto-item {
+      grid-column: 1;
+      grid-row: 4; }
+    main .grid-conteiner .quinto-item {
+      grid-column: 1;
+      grid-row: 5; }
+    main .grid-conteiner .sexto-item {
+      grid-column: 1;
+      grid-row: 6; }
+  .pie {
+    width: 900px; }
   footer {
     width: 1000px; }
     footer h3 {
@@ -418,6 +554,28 @@ footer {
     header nav ul a {
       font-size: 40px;
       font-family: 'Times New Roman', Times, serif; }
+  .ranking {
+    margin-top: 450px; }
+  .accordion-item button {
+    font-size: 30px; }
+  .accordion-body {
+    font-size: 30px; }
+    .accordion-body strong {
+      font-size: 30px; }
+  .grid-conteiner {
+    margin-top: 20px;
+    margin: 3px;
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(3fr 1fr);
+    padding: 5px; }
+    .grid-conteiner .primer-item {
+      grid-column: 1 / 2; }
+    .grid-conteiner .segundo-item {
+      grid-column: 1;
+      grid-row: 6; }
+  .pie {
+    width: 900px; }
   footer {
     position: static;
     margin-top: 20px;

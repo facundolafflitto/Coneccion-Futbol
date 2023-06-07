@@ -134,11 +134,11 @@ main {
   
     .grid-conteiner {
       margin-top: 20px;
-      margin: 3px;
+      margin: 5px;
       display: grid;
       grid-auto-rows: 200px;
       grid-template-columns: repeat(3fr 1fr);
-      padding: 5px;
+      padding: 05px;
   
      .primer-item {
         grid-column: 1 / 2;

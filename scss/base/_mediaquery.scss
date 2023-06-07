@@ -7,12 +7,16 @@
       justify-content: center;
       p{
         margin: 20px;
-        font-size: medium;
+        font-size: 20px;
+      }
+      h2{
+        font-size: 25px;
       }
   }
 
   header h1 {
       margin: 0px;
+      width: 1600px;
   }
 
   .hero {
@@ -41,7 +45,10 @@
   }
 
   footer{
-    width: 100%;
+    width: 1600px;
+    img{
+      width: 30px;
+    }
   }
 
   footer h3 {
@@ -80,26 +87,152 @@
   main .grid-conteiner {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+      column-gap: 0%;
+      width: 800px;
+      img{
+        width: 500px;
+      }
   }
 
   main .grid-conteiner .primer-item {
       grid-column: 2;
-      grid-row: 1;
+      grid-row: 2;
   }
 
   main .grid-conteiner .segundo-item {
-      grid-column: 1;
-      grid-row: 1;
+      grid-column: 3;
+      grid-row: 2;
   }
 
   .tercer-item {
-      grid-column: 2 / 3;
+      grid-column: 2 / 1;
   }
 
   .sexto-item {
       grid-column: 1;
       grid-row: 2;
   }
+  .pie{width: 1400px;}
+}
+@media screen and (max-width: 1245px){
+  main {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+      margin: 20px;
+      font-size: 25px;
+    }
+    h2{
+      font-size: 30px;
+    }
+    img{width: 1000px;}
+}
+
+header h1 {
+    margin: 0px;
+    width: 1250px;
+}
+
+.hero {
+  img {
+      width: 1200px;
+  }
+
+  button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      border: none;
+  }
+}
+
+.sorteo {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+.sanlorenzo p {
+    margin: 5px;
+}
+
+footer{
+  width: 1250px;
+  img{
+    width: 30px;
+  }
+}
+
+footer h3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.internacional {
+    display: flex;
+    flex-direction: column;
+}
+
+.amistosos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.marruecos img {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 0%;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+}
+
+.europa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    column-gap: 80px;
+    width: 1000px;
+    img{
+      width: 500px;
+    }
+}
+
+main .grid-conteiner .primer-item {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+main .grid-conteiner .segundo-item {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.tercer-item {
+    grid-column: 2 / 3;
+}
+
+.sexto-item {
+    grid-column: 1;
+    grid-row: 2;
+}
+.pie{width: 1100px;}
+
 }
 
 @media screen and (max-width: 980px) {
@@ -108,13 +241,16 @@
     padding: 0;
     color: black;
     font-style: normal;
-    font-size: 18px;
     font-family: 'Times New Roman', Times, serif; }
 
   body {
     margin: 5px;
     p{
-      font-size: larger;
+      font-size: 23px;
+      margin: 10px;
+    }
+    h2{
+      font-size: 30px;
     }
   }  
 
@@ -153,7 +289,7 @@
           background: transparent;
           border: none;
       }
-  }
+    }
 
     &.sorteo {
       display: flex;
@@ -168,6 +304,7 @@
         width: 800px;
       }
     }
+
 
     footer h3 {
       display: flex;
@@ -205,30 +342,40 @@
     main .grid-conteiner {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-
-      main .grid-conteiner .primer-item {
-        grid-column: 2;
-        grid-row: 1;
-      }
-
-      main .grid-conteiner .segundo-item {
+      gap: 0px;
+      grid-column-gap: 5px;
+      width: 1000px;
+    
+      .primer-item {
         grid-column: 1;
         grid-row: 1;
       }
 
-      &.tercer-item {
-        grid-column: 2 / 3;
+      .segundo-item {
+        grid-column: 1;
+        grid-row: 1;
       }
 
-      &.sexto-item {
+      .tercer-item {
+        grid-column: 1;
+        grid-row: 6;
+      }
+
+      .sexto-item {
         grid-column: 1;
         grid-row: 2;
       }
     }
   }
+  .pie{
+    width: 1300px;
+    h3{
+      font-size: 25px;
+    }
+    }
 
   footer{
-    width: 1000px;
+    width: 1200px;
   }
 }
 
@@ -255,7 +402,7 @@
       p {
         font-size: 25px;
         margin-bottom: 1rem;
-        margin: 0;
+        margin: 5;
         margin-bottom: 25px;
         display: inline-block;
         width: 800px;
@@ -274,7 +421,7 @@
         margin: 5px;
         }
       p{
-          font-size: 30px ;
+          font-size: 25px ;
           color: black;
         }
     
@@ -311,9 +458,20 @@
         border: none;
     }
 }
-  main.sanlorenzo{
+.ranking{
+  margin-top: 65px;
+}
+
+.accordion-item{
+  button{font-size: 30px;}
+}
+.accordion-body{
+  font-size: 30px;
+  strong{font-size: 30px;}
+}
+.sanlorenzo{
     width: 800px;
-    margin: 0;
+    margin: 0px;
     img{
       width: 1000px;
     }
@@ -346,11 +504,42 @@
       width: 600px;
   }
 
-  .grid-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-  
+  main .grid-conteiner {
+    margin-top: 20px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(1,1fr);
+    padding: 5px;
+    width: 700px;
+    img{width:500px;}
+
+    .primer-item {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .segundo-item {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .tercer-item{
+      grid-column: 1;
+      grid-row: 3;
+    }
+    .cuarto-item{
+      grid-column: 1;
+      grid-row: 4;
+    }
+    .quinto-item{
+      grid-column: 1;
+      grid-row: 5;
+    }
+    .sexto-item{
+      grid-column: 1;
+      grid-row: 6;
+    }
+  }  
+  .pie{width: 900px;}
   footer{
     width: 1000px;
     h3{
@@ -410,6 +599,35 @@
         }
     }
 }
+.ranking{
+  margin-top: 450px;
+}
+.accordion-item{
+  button{font-size: 30px;}
+}
+.accordion-body{
+  font-size: 30px;
+  strong{font-size: 30px;}
+}
+    .grid-conteiner {
+      margin-top: 20px;
+      margin: 3px;
+      display: grid;
+      grid-auto-rows: 200px;
+      grid-template-columns: repeat(3fr 1fr);
+      padding: 5px;
+  
+     .primer-item {
+        grid-column: 1 / 2;
+      }
+  
+      .segundo-item {
+        grid-column: 1;
+        grid-row: 6;
+      }
+    }  
+
+  .pie{width: 900px;}
 
   footer {
       position: static;
@@ -424,6 +642,7 @@
       }
   }
 }
+
 
 
 

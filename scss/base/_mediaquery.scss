@@ -1,16 +1,14 @@
 @media screen and (max-width: 1645px) {
   main {
-      width: 100%;
-      max-width: 1920px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       p{
         margin: 20px;
-        font-size: 20px;
+        font-size: nth($font-size, 4);
       }
       h2{
-        font-size: 25px;
+        font-size: nth($font-size, 6);;
       }
   }
 
@@ -20,8 +18,9 @@
   }
 
   .hero {
+    width: 1200px;
     img {
-        width: 1200px;
+        width: 1600px;
     }
 
     button {
@@ -45,7 +44,7 @@
   }
 
   footer{
-    width: 1600px;
+    width: 1375px;
     img{
       width: 30px;
     }
@@ -117,7 +116,6 @@
 }
 @media screen and (max-width: 1245px){
   main {
-    width: 100%;
     max-width: 1920px;
     display: flex;
     flex-direction: column;
@@ -138,8 +136,9 @@ header h1 {
 }
 
 .hero {
+  width: 1000px;
   img {
-      width: 1200px;
+      width: 1000px;
   }
 
   button {
@@ -158,12 +157,31 @@ header h1 {
     column-gap: 5px;
 }
 
-.sanlorenzo p {
-    margin: 5px;
+.sanlorenzo{
+  width: 800px;
+  margin: 0px;
+  img{
+    width: 1000px;
+  }
+  p{
+    width: 500px;
+  }
 }
 
+.championsLeague{
+img{width: 800px;}
+}  
+
+.tecnico-boca {
+  img{
+    width: 600px;
+  }
+    margin: auto;
+    width: 700px;
+    margin-right: 50px;
+}
 footer{
-  width: 1250px;
+  width: 960px;
   img{
     width: 30px;
   }
@@ -264,21 +282,18 @@ main .grid-conteiner .segundo-item {
 
     img{
       width: 970px;
-      min-width: 700px;
     }
 
     header{
       h1{
       margin: 0px;
-      width: 1000px;
+      width: 600px;
       }
     }
 
     .hero {
-      width: 980px;
-      min-width: 700px;
       img {
-          width: 500px;
+          width: 2000px;
       }
   
       button {
@@ -375,7 +390,7 @@ main .grid-conteiner .segundo-item {
     }
 
   footer{
-    width: 1200px;
+    width: 950px;
   }
 }
 
@@ -417,7 +432,6 @@ main .grid-conteiner .segundo-item {
       width: 100%;
       img{
         width: 1000px;
-        min-width:700px;
         margin: 5px;
         }
       p{
@@ -429,13 +443,13 @@ main .grid-conteiner .segundo-item {
 
   header {
       h1{
-        width: 1000px;
+        width: 980px;
       }
       nav {
           ul {
               display: flex;
               flex-direction: column;
-              width: 1000px;
+              width: 700px;
               a{
                 font-size: 25px;
                 font-family: 'Times New Roman', Times, serif;
@@ -445,8 +459,10 @@ main .grid-conteiner .segundo-item {
   }
 
   .hero {
+    width: 750px;
+    margin: 5px;
     img {
-        width: 1650px;
+        width: 800px;
     }
 
     button {
@@ -480,7 +496,14 @@ main .grid-conteiner .segundo-item {
     }
   }
 
+.championsLeague{
+  img{width: 800px;}
+}  
+
   .tecnico-boca {
+    img{
+      width: 600px;
+    }
       margin: auto;
       width: 700px;
       margin-right: 50px;
@@ -541,7 +564,8 @@ main .grid-conteiner .segundo-item {
   }  
   .pie{width: 900px;}
   footer{
-    width: 1000px;
+    width: 780px;
+    height: 50px;
     h3{
       font-size: 20px;
     }
@@ -579,7 +603,7 @@ main .grid-conteiner .segundo-item {
         margin: 5px;
         margin-bottom: 25px;
         display: inline-block;
-        width: 800px;
+        width: 600px;
     }
 
   }
@@ -591,7 +615,7 @@ main .grid-conteiner .segundo-item {
         ul {
             display: flex;
             flex-direction: column;
-            width: 950px;
+            width: 700px;
             a{
               font-size: 40px;
               font-family: 'Times New Roman', Times, serif;
@@ -599,15 +623,27 @@ main .grid-conteiner .segundo-item {
         }
     }
 }
+main.hero{
+  img{width: 500px;}
+}
 .ranking{
   margin-top: 450px;
 }
+.accordion{width: 400px;}
 .accordion-item{
   button{font-size: 30px;}
 }
 .accordion-body{
   font-size: 30px;
   strong{font-size: 30px;}
+}
+.championsLeague{
+  img{width: 700px;}
+}
+main.sanlorenzo{
+  img{width:500px ;}}
+.imagen-principal{
+  width: 600px;
 }
     .grid-conteiner {
       margin-top: 20px;
@@ -630,9 +666,10 @@ main .grid-conteiner .segundo-item {
   .pie{width: 900px;}
 
   footer {
-      position: static;
+      display: flex;
+      flex-direction: row;
       margin-top: 20px;
-      width: 1000px;
+      width: 700px;
       height: 100px;
       h3{
         font-size: 40px;

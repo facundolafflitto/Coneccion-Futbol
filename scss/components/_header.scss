@@ -22,7 +22,7 @@ header{
         font-style: italic;
         font-weight: 1000;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
+        font-size: nth($font-size, 3);
     }    
     
     nav{

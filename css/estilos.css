@@ -156,28 +156,28 @@ footer {
 
 @media screen and (max-width: 1645px) {
   main {
-    width: 100%;
-    max-width: 1920px;
     display: flex;
     flex-direction: column;
     justify-content: center; }
     main p {
       margin: 20px;
-      font-size: 20px; }
+      font-size: 24px; }
     main h2 {
-      font-size: 25px; }
+      font-size: 30px; }
   header h1 {
     margin: 0px;
     width: 1600px; }
-  .hero img {
+  .hero {
     width: 1200px; }
-  .hero button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
-    border: none; }
+    .hero img {
+      width: 1600px; }
+    .hero button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      border: none; }
   .sorteo {
     display: flex;
     flex-direction: column;
@@ -185,7 +185,7 @@ footer {
   .sanlorenzo p {
     margin: 5px; }
   footer {
-    width: 1600px; }
+    width: 1375px; }
     footer img {
       width: 30px; }
   footer h3 {
@@ -233,7 +233,6 @@ footer {
 
 @media screen and (max-width: 1245px) {
   main {
-    width: 100%;
     max-width: 1920px;
     display: flex;
     flex-direction: column;
@@ -248,23 +247,38 @@ footer {
   header h1 {
     margin: 0px;
     width: 1250px; }
-  .hero img {
-    width: 1200px; }
-  .hero button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
-    border: none; }
+  .hero {
+    width: 1000px; }
+    .hero img {
+      width: 1000px; }
+    .hero button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      border: none; }
   .sorteo {
     display: flex;
     flex-direction: column;
     column-gap: 5px; }
-  .sanlorenzo p {
-    margin: 5px; }
+  .sanlorenzo {
+    width: 800px;
+    margin: 0px; }
+    .sanlorenzo img {
+      width: 1000px; }
+    .sanlorenzo p {
+      width: 500px; }
+  .championsLeague img {
+    width: 800px; }
+  .tecnico-boca {
+    margin: auto;
+    width: 700px;
+    margin-right: 50px; }
+    .tecnico-boca img {
+      width: 600px; }
   footer {
-    width: 1250px; }
+    width: 960px; }
     footer img {
       width: 30px; }
   footer h3 {
@@ -331,23 +345,19 @@ footer {
     flex-direction: column;
     justify-content: center; }
     main img {
-      width: 970px;
-      min-width: 700px; }
+      width: 970px; }
     main header h1 {
       margin: 0px;
-      width: 1000px; }
-    main .hero {
-      width: 980px;
-      min-width: 700px; }
-      main .hero img {
-        width: 500px; }
-      main .hero button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: transparent;
-        border: none; }
+      width: 600px; }
+    main .hero img {
+      width: 2000px; }
+    main .hero button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      border: none; }
     main.sorteo {
       display: flex;
       flex-direction: column;
@@ -401,7 +411,7 @@ footer {
     .pie h3 {
       font-size: 25px; }
   footer {
-    width: 1200px; } }
+    width: 950px; } }
 
 @media screen and (max-width: 796px) {
   * {
@@ -432,29 +442,31 @@ footer {
     width: 100%; }
     main img {
       width: 1000px;
-      min-width: 700px;
       margin: 5px; }
     main p {
       font-size: 25px;
       color: black; }
   header h1 {
-    width: 1000px; }
+    width: 980px; }
   header nav ul {
     display: flex;
     flex-direction: column;
-    width: 1000px; }
+    width: 700px; }
     header nav ul a {
       font-size: 25px;
       font-family: 'Times New Roman', Times, serif; }
-  .hero img {
-    width: 1650px; }
-  .hero button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
-    border: none; }
+  .hero {
+    width: 750px;
+    margin: 5px; }
+    .hero img {
+      width: 800px; }
+    .hero button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: transparent;
+      border: none; }
   .ranking {
     margin-top: 65px; }
   .accordion-item button {
@@ -470,10 +482,14 @@ footer {
       width: 1000px; }
     .sanlorenzo p {
       width: 500px; }
+  .championsLeague img {
+    width: 800px; }
   .tecnico-boca {
     margin: auto;
     width: 700px;
     margin-right: 50px; }
+    .tecnico-boca img {
+      width: 600px; }
   .amistosos {
     display: flex;
     flex-direction: column;
@@ -515,7 +531,8 @@ footer {
   .pie {
     width: 900px; }
   footer {
-    width: 1000px; }
+    width: 780px;
+    height: 50px; }
     footer h3 {
       font-size: 20px; }
     footer img {
@@ -544,24 +561,34 @@ footer {
       margin: 5px;
       margin-bottom: 25px;
       display: inline-block;
-      width: 800px; }
+      width: 600px; }
   header h1 {
     width: 1000px; }
   header nav ul {
     display: flex;
     flex-direction: column;
-    width: 950px; }
+    width: 700px; }
     header nav ul a {
       font-size: 40px;
       font-family: 'Times New Roman', Times, serif; }
+  main.hero img {
+    width: 500px; }
   .ranking {
     margin-top: 450px; }
+  .accordion {
+    width: 400px; }
   .accordion-item button {
     font-size: 30px; }
   .accordion-body {
     font-size: 30px; }
     .accordion-body strong {
       font-size: 30px; }
+  .championsLeague img {
+    width: 700px; }
+  main.sanlorenzo img {
+    width: 500px; }
+  .imagen-principal {
+    width: 600px; }
   .grid-conteiner {
     margin-top: 20px;
     margin: 3px;
@@ -577,9 +604,10 @@ footer {
   .pie {
     width: 900px; }
   footer {
-    position: static;
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
-    width: 1000px;
+    width: 700px;
     height: 100px; }
     footer h3 {
       font-size: 40px; }

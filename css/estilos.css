@@ -3,7 +3,7 @@ main .card {
   justify-content: center; }
 
 * {
-  margin: 5;
+  margin: 2px;
   padding: 0;
   color: black;
   font-style: normal;
@@ -68,6 +68,11 @@ main {
       color: white; }
     main .hero span {
       color: white; }
+  main .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px; }
   main .resultados a img {
     width: 1000px; }
   main .mono {
@@ -77,17 +82,45 @@ main {
     justify-content: flex end;
     align: center; }
   main .sanlorenzo {
-    margin-left: 20px;
-    margin-top: 40px; }
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: -50px; }
     main .sanlorenzo img {
-      width: 600px; }
+      width: 1200px; }
   main .sorteo {
     margin-left: 20px; }
     main .sorteo img {
       width: 400px;
       margin-left: 20px; }
+  main .a1 {
+    display: flex;
+    flex-direction: row; }
   main .championsLeague {
-    margin-left: 20px; }
+    margin-left: 20px;
+    width: 900px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column; }
+    main .championsLeague p {
+      text-align: end; }
+  main .tecnico-boca {
+    width: 950px;
+    margin-left: 100px;
+    margin-bottom: 40px; }
+  main .independiente {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main .independiente img {
+      justify-content: center;
+      width: 65%;
+      margin-left: 300px; }
+    main .independiente p {
+      text-align: center; }
+    main .independiente h2 {
+      margin-left: 700px; }
   main .europa {
     display: flex;
     justify-content: center;
@@ -96,19 +129,33 @@ main {
       margin-left: 10px; }
     main .europa img {
       width: 560px; }
+  main .internacional {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  main .tuchel {
+    width: 15500px;
+    margin-right: 100px; }
+  main .mancini {
+    width: 100%;
+    margin-right: 200px; }
+  main .messi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  main .gol {
+    margin-left: 150px; }
   main .belgica {
-    margin: 50px; }
+    margin: 20px; }
     main .belgica img {
-      width: 500px;
-      height: 300px; }
+      width: 800px;
+      height: 500px; }
   main .ranking {
     margin-right: 650px;
     margin-left: 50px;
-    width: 300px; }
-  main .tecnico-boca {
-    width: 850px;
-    margin-left: 20px;
-    margin-bottom: 40px; }
+    width: 400px; }
+    main .ranking img {
+      width: 800px; }
   main .brown img {
     width: 900px; }
   main .rafaela img {
@@ -129,6 +176,41 @@ main {
     width: 500px; }
   main .mercadolibre {
     width: 50px; }
+  main .ascenso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 300px;
+    padding-inline: 500px; }
+    main .ascenso img {
+      width: 1500px; }
+  main .brown {
+    margin-left: 300px; }
+    main .brown img {
+      width: 600px; }
+  main .almirante {
+    margin-left: 50px;
+    margin-right: 50px; }
+    main .almirante img {
+      width: 600px;
+      height: 500px; }
+  main .rafaela img {
+    width: 600px; }
+  main .acercadenosotros {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    main .acercadenosotros iframe {
+      margin: 5px; }
+    main .acercadenosotros .ole {
+      margin: 25px;
+      display: flex;
+      flex-direction: column;
+      h3: 30px; }
+      main .acercadenosotros .ole img {
+        width: 300px;
+        margin-left: 10px; }
   main .grid-conteiner {
     margin-top: 20px;
     margin: 5px;
@@ -178,14 +260,32 @@ footer {
       transform: translate(-50%, -50%);
       background: transparent;
       border: none; }
+  .flex {
+    display: flex;
+    flex-direction: column; }
+  .a1 {
+    display: flex;
+    flex-direction: column; }
+  .tecnico-boca {
+    margin-left: 4px; }
+  .independiente {
+    display: flex;
+    margin-left: -30px; }
+    .independiente img {
+      margin-left: 20px; }
+    .independiente h2 {
+      margin-left: -20px; }
   .sorteo {
     display: flex;
     flex-direction: column;
-    column-gap: 5px; }
-  .sanlorenzo p {
-    margin: 5px; }
+    column-gap: 5px;
+    width: 1000px; }
+  .sanlorenzo {
+    margin: 50px; }
+    .sanlorenzo img {
+      width: 800px; }
   footer {
-    width: 1375px; }
+    width: 1500px; }
     footer img {
       width: 30px; }
   footer h3 {
@@ -233,10 +333,7 @@ footer {
 
 @media screen and (max-width: 1245px) {
   main {
-    max-width: 1920px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    max-width: 1920px; }
     main p {
       margin: 20px;
       font-size: 25px; }
@@ -258,17 +355,30 @@ footer {
       transform: translate(-50%, -50%);
       background: transparent;
       border: none; }
+  .flex {
+    display: flex;
+    flex-direction: column; }
+  .a1 {
+    display: flex;
+    flex-direction: column; }
+  .tecnico-boca {
+    margin-left: 4px; }
+  .independiente {
+    display: flex;
+    margin-left: -30px; }
+    .independiente img {
+      margin-left: 20px; }
+    .independiente h2 {
+      margin-left: -20px; }
   .sorteo {
     display: flex;
     flex-direction: column;
-    column-gap: 5px; }
+    column-gap: 5px;
+    width: 1000px; }
   .sanlorenzo {
-    width: 800px;
-    margin: 0px; }
+    margin: 50px; }
     .sanlorenzo img {
-      width: 1000px; }
-    .sanlorenzo p {
-      width: 500px; }
+      width: 800px; }
   .championsLeague img {
     width: 800px; }
   .tecnico-boca {
@@ -278,7 +388,7 @@ footer {
     .tecnico-boca img {
       width: 600px; }
   footer {
-    width: 960px; }
+    width: 1200px; }
     footer img {
       width: 30px; }
   footer h3 {
@@ -287,6 +397,11 @@ footer {
   .internacional {
     display: flex;
     flex-direction: column; }
+  .messi {
+    display: flex;
+    flex-direction: column; }
+  .gol {
+    margin: -20px; }
   .amistosos {
     display: flex;
     flex-direction: column;
@@ -344,6 +459,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center; }
+    main .paginaPrincipal img {
+      width: 600px; }
     main img {
       width: 970px; }
     main header h1 {
@@ -358,6 +475,21 @@ footer {
       transform: translate(-50%, -50%);
       background: transparent;
       border: none; }
+    main .flex {
+      display: flex;
+      flex-direction: column; }
+    main .a1 {
+      display: flex;
+      flex-direction: column; }
+    main .tecnico-boca {
+      margin-left: 4px; }
+    main .independiente {
+      display: flex;
+      margin-left: -30px; }
+      main .independiente img {
+        margin-left: 20px; }
+      main .independiente h2 {
+        margin-left: -20px; }
     main.sorteo {
       display: flex;
       flex-direction: column;
@@ -367,10 +499,32 @@ footer {
       margin: 50px; }
       main .sanlorenzo img {
         width: 800px; }
+    main .ascenso {
+      display: flex;
+      flex-direction: column; }
+      main .ascenso .brown {
+        margin-left: -500px; }
+      main .ascenso .almirante {
+        margin-left: -500px; }
+      main .ascenso .rafaela {
+        margin-left: -500px; }
     main footer h3 {
       display: flex;
       flex-wrap: wrap; }
-    main.internacional {
+    main .internacional {
+      margin: 20px;
+      display: flex;
+      flex-direction: column; }
+      main .internacional p {
+        font-size: 30px; }
+      main .internacional img {
+        width: 1000px; }
+    main .messi {
+      display: flex;
+      flex-direction: column; }
+    main .gol {
+      margin: 20px; }
+    main .acercadenosotros {
       display: flex;
       flex-direction: column; }
     main.amistosos {
@@ -407,7 +561,7 @@ footer {
         grid-column: 1;
         grid-row: 2; }
   .pie {
-    width: 1300px; }
+    width: 1100px; }
     .pie h3 {
       font-size: 25px; }
   footer {
@@ -428,9 +582,9 @@ footer {
       font-size: 2rem;
       margin-bottom: 0.5rem; }
     body h2 {
-      font-size: 30px; }
+      font-size: 40px; }
     body p {
-      font-size: 25px;
+      font-size: 35px;
       margin-bottom: 1rem;
       margin: 5;
       margin-bottom: 25px;
@@ -441,10 +595,9 @@ footer {
     margin: auto;
     width: 100%; }
     main img {
-      width: 1000px;
       margin: 5px; }
     main p {
-      font-size: 25px;
+      font-size: 35px;
       color: black; }
   header h1 {
     width: 980px; }
@@ -482,6 +635,15 @@ footer {
       width: 1000px; }
     .sanlorenzo p {
       width: 500px; }
+  .ascenso {
+    display: flex;
+    flex-direction: column; }
+    .ascenso .brown {
+      margin-left: -500px; }
+    .ascenso .almirante {
+      margin-left: -500px; }
+    .ascenso .rafaela {
+      margin-left: -500px; }
   .championsLeague img {
     width: 800px; }
   .tecnico-boca {
@@ -490,6 +652,13 @@ footer {
     margin-right: 50px; }
     .tecnico-boca img {
       width: 600px; }
+  .internacional {
+    display: flex;
+    flex-direction: column; }
+    .internacional p {
+      font-size: 20px; }
+    .internacional img {
+      width: 700px; }
   .amistosos {
     display: flex;
     flex-direction: column;
@@ -531,7 +700,7 @@ footer {
   .pie {
     width: 900px; }
   footer {
-    width: 780px;
+    width: 900px;
     height: 50px; }
     footer h3 {
       font-size: 20px; }
@@ -571,8 +740,20 @@ footer {
     header nav ul a {
       font-size: 40px;
       font-family: 'Times New Roman', Times, serif; }
+  main p {
+    font-size: 45px; }
+  main img {
+    width: 600px; }
   main.hero img {
     width: 500px; }
+  .independiente {
+    display: flex;
+    margin-left: -30px; }
+    .independiente img {
+      margin-left: 50px;
+      width: 42400px; }
+    .independiente h2 {
+      margin-left: -20px; }
   .ranking {
     margin-top: 450px; }
   .accordion {
@@ -602,7 +783,7 @@ footer {
       grid-column: 1;
       grid-row: 6; }
   .pie {
-    width: 900px; }
+    width: 850px; }
   footer {
     display: flex;
     flex-direction: row;
